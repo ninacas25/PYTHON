@@ -5,14 +5,14 @@ Fallados = 0
 
 # Definir las preguntas y las opciones de respuesta en una lista de tuplas
 preguntas = [
-    (
-    "Pregunta: " + "¿En que país se encuentra Yucatán?", 
+#     (
+#     "Pregunta: " + "¿En que país se encuentra Yucatán?", 
 
-    ["México","Francia","Estados Unidos","Brasil"], 
+#     ["México","Francia","Estados Unidos","Brasil"], 
     
-      0
-    )
-]
+#       0
+#     )
+# ]
     # (
     # "pregunta:" "Es un país que está en Oceanía", 
     #["Irán","China","Egipto","Nueva Zelanda"], 
@@ -67,17 +67,17 @@ preguntas = [
     #"206"
     # )
     # ]
-#   ("¿En que país se encuentra Yucatán?", ["México","Francia","Estados Unidos","Brasil"], 0),
-#     ("ES un país que está en Oceanía", ["Irán","China","Egipto","Nueva Zelanda"], 3),
-#     ("¿Cuál es la ciudad de los rascacielos?", ["Dubai","Nueva York","Chicago","Tokio"], 1),
-#     ("¿Cuál es el río más largo del mundo?", ["Nilo", "Amazonas", "Yangtsé", "Misisipi"], 1),
-#     ("¿Cuál es el planeta más grande del sistema solar?", ["Venus", "Júpiter", "Marte", "Saturno"], 1),
-#     ("¿En qué país se usó la primera bomba atómica?", ["Colombia","Tokio","Japón","Siria"], 2),
-#     ("¿Quién pintó la Mona Lisa?", ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Michelangelo"], 2),
-#     ("¿En qué continente se encuentra Egipto?", ["Asia", "Europa", "África", "América"], 2),
-#     ("¿Cuál es el océano más grande del mundo?", ["Océano Atlántico", "Océano Índico", "Océano Pacífico", "Océano Antártico"], 2),
-#     ("¿Cuántos huesos hay en el cuerpo humano?", ["250","224","206","215"], 2)
-#     ]
+  ("¿En que país se encuentra Yucatán?", ["México","Francia","Estados Unidos","Brasil"], 0),
+    ("ES un país que está en Oceanía", ["Irán","China","Egipto","Nueva Zelanda"], 3),
+    ("¿Cuál es la ciudad de los rascacielos?", ["Dubai","Nueva York","Chicago","Tokio"], 1),
+    ("¿Cuál es el río más largo del mundo?", ["Nilo", "Amazonas", "Yangtsé", "Misisipi"], 1),
+    ("¿Cuál es el planeta más grande del sistema solar?", ["Venus", "Júpiter", "Marte", "Saturno"], 1),
+    ("¿En qué país se usó la primera bomba atómica?", ["Colombia","Tokio","Japón","Siria"], 2),
+    ("¿Quién pintó la Mona Lisa?", ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Michelangelo"], 2),
+    ("¿En qué continente se encuentra Egipto?", ["Asia", "Europa", "África", "América"], 2),
+    ("¿Cuál es el océano más grande del mundo?", ["Océano Atlántico", "Océano Índico", "Océano Pacífico", "Océano Antártico"], 2),
+    ("¿Cuántos huesos hay en el cuerpo humano?", ["250","224","206","215"], 2)
+    ]
 
 # Iterar a través de las preguntas, mostrar opciones y solicitar respuestas al usuario
 for pregunta, opciones, respuesta in preguntas:
