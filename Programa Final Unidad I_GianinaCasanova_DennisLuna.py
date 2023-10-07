@@ -1,3 +1,6 @@
+# Programa Final Unidad I
+# GIANINA CASANOVA Y DENNIS LUNA
+
 # Inicializar variables para la calificación y el número de aciertos
 calificacion = 0
 Aciertos = 0
